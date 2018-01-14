@@ -1,0 +1,149 @@
+
+/* margenes de toda la pagina */
+html{
+
+	margin-left:10px;
+	margin-right:10px;
+	margin-top:10px;
+	margin-bottom:10px;
+	
+}
+
+
+body{
+	
+background: #AD983B;	
+}
+
+/* Contenedor principal (donde estan todos los div) */
+
+#contenedor {
+}
+
+
+/* Contenedor centro */
+
+/* contenedor centro */
+#contenido {
+  float: left;
+  width: 85%;
+}
+
+#centro{
+width:auto;
+height:90%;
+background: #666;
+position:center;
+margin:0 auto;
+margin-left:217px;
+margin-top:-480px;
+}
+
+* {
+	margin:0px;
+	padding:0px;
+}
+
+
+
+
+/* Menu superior (home..) */
+
+#cabecera {
+}
+
+#menuprincipal {
+	
+	width:auto;
+	font-family: Arial, sans-serif;
+	font-size: 11pt;
+}
+
+
+
+ul, ol {
+	list-style:none;
+}
+
+.nav > li {
+	float:left;
+}
+
+.nav li a {
+	background-color: #666;
+	color:#fff;
+	text-decoration:none;
+	padding:10px 100px;
+	display:block;
+}
+
+.nav li a:hover {
+	background-color:#434343;
+}
+
+.nav li ul {
+	display:none;
+	position:center;
+	min-width:140px;
+}
+
+.nav li:hover > ul {
+	background: #000;
+	color: #fff;
+}
+
+
+
+/* Menu izquierdo */
+
+#menu {
+  float: left;
+  width: 15%;
+}
+
+#menuizquierdo ul {
+    list-style-type: none;
+    padding: 50px;
+    width: 200px;
+    font-family: Arial;
+    font-size: 11pt;
+	margin-left:-50px;
+	font-family: Arial, sans-serif;
+	
+}
+
+
+#menuizquierdo ul li {
+    background-color: #666;
+	font-family: Arial, sans-serif;
+	font-size: 11pt;
+}
+
+
+#menuizquierdo ul li a {
+    color: #ccc;
+    text-decoration: none;
+	font-family: Arial, sans-serif;
+	font-size: 11pt;
+    display: block;
+    padding: 10px 10px 10px 20px;
+}
+
+
+#menuizquierdo ul li a:hover {
+    background: #000;
+    border-left: 10px solid #333;
+    color: #fff;
+	font-family: Arial, sans-serif;
+	font-size: 11pt;
+}
+
+#menuizquierdo border-left: 10px solid #666;
+
+
+
+/* contenedor pie de página */
+#pie {
+  clear: both;
+ background-color:#0000FF;
+}
